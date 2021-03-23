@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.clearfix{
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.video{
+    width: 70%;
+    float: left;
+    height: auto;
+    position: relative;
+}
+
+.suggeriti{
+    height: 100%;
+    width: 30%;
+    float: right;
+    background-color: white;
+    position: absolute;
+    right: 0;
+}
+
+.player{
+    height: 50px;
+    width: 100%;
+    float: left;
+    bottom: 0;
+    position: absolute;
+    border-top: 5px solid red;
+}
+
+.img_suggerite{
+    position: relative;
+    width: 100%;
+    height: 100px;
+}
+
+.vid_suggerito{
+    float: left;
+    position: absolute;
+    width: 60%;
+    height: auto;
+}
+
+.video_text{
+    float: left;
+    position: absolute;
+    width: 40%;
+    height: auto;
+    right: 0;
+}
